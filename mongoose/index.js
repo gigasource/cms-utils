@@ -1,6 +1,5 @@
 /* eslint-disable */
 import axios from 'axios';
-import jsonfn from 'json-fn';
 
 function builder(resolver) {
   return new Proxy({}, {
